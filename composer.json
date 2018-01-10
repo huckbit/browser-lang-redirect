@@ -1,0 +1,13 @@
+{
+    "name": "maxranauro/browser-detect",
+    "description": "test browser detect",
+    "authors": [
+        {
+            "name": "Massimiliano Ranauro",
+            "email": "huckbit@gmail.com"
+        }
+    ],
+    "require": {
+        "sinergi/browser-detector": "^6.1"
+    }
+}
