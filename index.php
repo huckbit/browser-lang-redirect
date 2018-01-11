@@ -28,9 +28,9 @@ $sessionStatus = (isset($_SESSION['redirect'])) ? ($_SESSION['redirect'] = false
 //foreach language in the config: if the browser is set equal the key and the session is true (first time visit) do the redirection
 foreach (array_reverse($lang) as $key => $value) {
 
-    if(($language->getLanguage() === $key) && ($sessionStatus) ) {
+    if (($language->getLanguage() === $key) && ($sessionStatus)) {
 
-        header("Location:" . $website_base_url['url'] . "/" . $value );
+        header("Location:" . $website_base_url['url'] . "/" . $value);
         exit();
 
     }
