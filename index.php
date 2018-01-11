@@ -6,8 +6,9 @@
  * Time: 14:35
  */
 
-
 require 'bootstrap.php';
+
+use Huckbit\BrowserLangRedirect\LanguageCheck;
 
 //import configuration
 $lang = require 'config/usedLanguages.php';

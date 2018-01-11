@@ -6,6 +6,8 @@
  * Time: 14:30
  */
 
+namespace Huckbit\BrowserLangRedirect;
+
 use Sinergi\BrowserDetector\Language;
 
 
