@@ -13,4 +13,4 @@ http://www.websitename.io/lang/
 e.g.: http://www.websitename.io/it/
 ```
 
-The app uses [sinergi/browser-detector](https://packagist.org/packages/sinergi/browser-detector) just to perform the language check.
+The app uses [sinergi/browser-detector](https://packagist.org/packages/sinergi/browser-detector) to perform the language check.
