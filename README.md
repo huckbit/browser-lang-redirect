@@ -1,6 +1,6 @@
 # Browser Language Detect and Redirect
 
-Purpose of this app is detect the language setup of the browser and redirect to the right language website just the first time.
+Purpose of this app is detect the language setup of the browser and redirect to the right language website just on the first request.
 
 Insert the website_base_url in `config.php` and set the languages inside the array `usedLanguages.php`.
 
