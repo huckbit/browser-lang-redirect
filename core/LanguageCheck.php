@@ -37,7 +37,7 @@ Class LanguageCheck
         //first request $_SESSION['redirect'] not set >>> set variable to true. Next round set to false (prevent more than one redirection)
         $sessionStatus = (isset($_SESSION['redirect'])) ? ($_SESSION['redirect'] = false) : ($_SESSION['redirect'] = true);
 
-        //foreach language in the config: if the browser is set equal the key and the session is true (first request: true) do the redirection
+        //for each language in the array: if the browser is set equal the key and the session is true (first request: true) do the redirection
         foreach (array_reverse($this->lang) as $key => $value) {
 
             if (($language->getLanguage() === $key) && ($sessionStatus)) {
