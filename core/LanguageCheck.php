@@ -34,11 +34,10 @@ Class LanguageCheck
         //start a new session
         session_start();
 
-        //if the session is set and is true set it to false. This means that the redirect is already append
+        //first request $_SESSION['redirect'] not set >>> set variable to true. Next round set to false (prevent more than one redirection)
         $sessionStatus = (isset($_SESSION['redirect'])) ? ($_SESSION['redirect'] = false) : ($_SESSION['redirect'] = true);
 
-
-        //foreach language in the config: if the browser is set equal the key and the session is true (first time visit) do the redirection
+        //foreach language in the config: if the browser is set equal the key and the session is true (first request: true) do the redirection
         foreach (array_reverse($this->lang) as $key => $value) {
 
             if (($language->getLanguage() === $key) && ($sessionStatus)) {
