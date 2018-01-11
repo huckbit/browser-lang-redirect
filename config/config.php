@@ -1,13 +1,13 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: maxranauro
+ * User: MassimilianoRanauro (huckbit@gmail.com)
  * Date: 11/01/2018
  * Time: 10:36
  */
 
 return [
 
-    'url' => 'http://hauteroute.local'
+    'url' => 'https://www.hauteroute.org'
 
 ];
