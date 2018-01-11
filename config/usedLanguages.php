@@ -6,10 +6,10 @@
  * Time: 14:59
  */
 
-return array(
+return [
 
     'en' => '',
     'fr' => 'fr',
     'it' => 'it'
 
-);
+];
