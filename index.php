@@ -20,3 +20,4 @@ $userLang = new LanguageCheck($lang, $website_base_url);
 
 //redirect to the language based on the user language browser settings
 $userLang->redirect();
+

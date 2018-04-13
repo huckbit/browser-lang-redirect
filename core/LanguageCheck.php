@@ -44,8 +44,13 @@ Class LanguageCheck
 
             if (($language->getLanguage() === $key) && ($sessionStatus)) {
 
-                header("Location:" . $this->website_base_url['url'] . "/" . $value);
-                exit();
+                if (($this->website_base_url .'/')  === ($this->website_base_url . $_SERVER["REQUEST_URI"])){
+
+                    //perform the redirect only if is requested the homepage
+                    header("Location:" . $this->website_base_url['url'] . "/" . $value);
+                    exit();
+
+                }
 
             }
         }
