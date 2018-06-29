@@ -11,8 +11,11 @@ The default address format needs to be:
 
 ```shell
 http://www.websitename.io/lang/
+```
 
-e.g.: http://www.websitename.io/it/
+e.g.:
+```
+http://www.websitename.io/it/
 ```
 
 The app uses [sinergi/browser-detector](https://packagist.org/packages/sinergi/browser-detector) to perform the language check.
